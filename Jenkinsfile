@@ -1,8 +1,8 @@
 pipeline{
 	agent any
-		stages {
+		stages{
 			stage('Stage1'){
-				steps {
+				steps{
 					sh 'cp -r . /var/www/html' 
 			}
 		}
